@@ -1,8 +1,11 @@
+// Essa parte é responsavel por pegar os dados do html.
+
 const span = document.querySelector('span')
 const btnStart = document.querySelector('#btnStart')
 const btnPause = document.querySelector('#btnPause')
 const btnClean = document.querySelector('#btnClean')
 
+// Isso é uma váriavel.
 var interval
 
 btnStart.onclick = () => {
