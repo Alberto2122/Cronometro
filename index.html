@@ -3,24 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/style.css">
+    <link rel="stylesheet" href="./assets/style.css">  <!-- Linkagem do CSS-->
+    <!-- Framework para conseguir icons para o CSS -->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <title>Cronometro</title>
 </head>
 <body>
+    <!-- Main (tudo que está dentro é importante para o corpo)-->
       <main>
-        <div class="cronometro">
+        <div class="cronometro"> <!-- Corresponde ao desenho do cronômetro 
+            como também dos números -->
             <img src="./imagens/cronometro.png" alt="Cronometro">
             <span>0.0</span>
         </div>
-        <div class="botoes">
+        <div class="botoes"> <!-- Corresponde aos botões play, pause e stop -->
             <button id="btnStart"><i class='bx bx-play'></i></button>
             <button id="btnPause" desibled><i class='bx bx-pause'></i></button>
             <button id="btnClean"><i class='bx bx-stop' ></i></button>
         </div>
       </main>
 
-
+    <!-- Linkagem do javascript -->
     <script src="./script.js"></script>
 </body>
 </html>
