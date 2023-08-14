@@ -1,4 +1,4 @@
-# Cronometro
+# Cronômetro
 - Cronômetro com HTML, CSS e JAVASCRIPT.👨‍🏫
   
 - Desenvolvi esse cronôgrama para estudar um pouco dos conceitos HTML, CSS e JAVASCRIPT.🧠
