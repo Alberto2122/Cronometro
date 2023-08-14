@@ -7,5 +7,5 @@
 
 - Ele tem um visual sofisticado e bem simples.
 
-- espero que gostem!!
+- Espero que gostem!!
 
