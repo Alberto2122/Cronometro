@@ -1,0 +1,57 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{ 
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #0a0c21;
+    color: aliceblue
+}
+
+.cronometro, .botoes{ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+span{ 
+    position: absolute;
+    font-size: 100px;
+    margin-top: 60px;
+}
+
+img{ 
+    width: 70%;
+}
+
+
+button{ 
+    cursor: pointer;
+}
+
+i{ 
+    font-size: 50px;
+}
+
+#btnPause{ 
+    margin: 20px 20px;
+}
+
+@media(max-width: 420px){ 
+    span{ 
+        font-size: 60px;
+        margin-top: 40px;
+    }
+
+    i{ 
+        font-size: 40px;
+    }
+    
+}
