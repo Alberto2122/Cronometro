@@ -1,10 +1,12 @@
+
+/* Estilazação da página inteira*/
 *{ 
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-
+/* Estilazação do corpo do HTML*/
 body{ 
     width: 100vw;
     height: 100vh;
@@ -15,35 +17,41 @@ body{
     color: aliceblue
 }
 
+/* Estilazação do Cronômetro e Botões*/
 .cronometro, .botoes{ 
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
+/* Estilazação do Span dentro da div cronômetro*/
 span{ 
     position: absolute;
     font-size: 100px;
     margin-top: 60px;
 }
 
+/* Estilazação da imagem dentro da div cronômetro*/
 img{ 
     width: 70%;
 }
 
-
+/* Estilazação do botão dentro da div botões*/
 button{ 
     cursor: pointer;
 }
 
+/* Estilazação do I dentro da div botões*/
 i{ 
     font-size: 50px;
 }
 
+/* Estilazação do botão #bntPause dentro da div botões*/
 #btnPause{ 
     margin: 20px 20px;
 }
 
+/* responsividade*/
 @media(max-width: 420px){ 
     span{ 
         font-size: 60px;
