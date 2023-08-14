@@ -8,10 +8,12 @@ const btnClean = document.querySelector('#btnClean')
 // Isso é uma váriavel.
 var interval
 
+// Essa parte pertence ao click do botão de Start.
 btnStart.onclick = () => {
    btnStart.disabled = true
    btnPause.disabled = false
 
+ //  Isso é uma váriavel.   
    var value = parseFloat(span.innerHTML)
 
    interval = setInterval(() =>{
@@ -21,6 +23,7 @@ btnStart.onclick = () => {
    },100);
 }
 
+// Essa parte pertence ao click do botão de Pause e Clean.
 btnPause.onclick = () => {
     btnStart.disabled = false
     btnPause.disabled = true
